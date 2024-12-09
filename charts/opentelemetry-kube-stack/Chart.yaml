@@ -22,7 +22,7 @@ dependencies:
     version: "0.0.0"
     condition: crds.install
   - name: opentelemetry-operator
-    repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+    repository: https://cftechwiz.github.io/opentelemetry-helm-charts
     version: 0.71.1
     condition: opentelemetry-operator.enabled
   - name: kube-state-metrics
