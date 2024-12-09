@@ -13,7 +13,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-$ helm repo add cft-opentelemetry https://cftechwiz.github.io/opentelemetry-helm-charts
+$ helm repo add cft-otel https://cftechwiz.github.io/opentelemetry-helm-charts
 ```
 
 ## Helm Charts
