@@ -13,13 +13,13 @@ in kubernetes cluster.
 Add OpenTelemetry Helm repository:
 
 ```console
-helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+helm repo add cft-otel https://cftechwiz.github.io/opentelemetry-helm-charts
 ```
 
 To install the chart with the release name my-otel-demo, run the following command:
 
 ```console
-helm install my-otel-demo open-telemetry/opentelemetry-demo
+helm install my-otel-demo cft/opentelemetry-demo
 ```
 
 ## Upgrading
