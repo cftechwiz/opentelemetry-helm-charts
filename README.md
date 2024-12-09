@@ -13,7 +13,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-$ helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+$ helm repo add cft-otel https://cftechwiz.github.io/opentelemetry-helm-charts
 ```
 
 ## Helm Charts
@@ -22,19 +22,19 @@ You can then run `helm search repo open-telemetry` to see the charts.
 
 ### OpenTelemetry Collector
 
-The chart can be used to install [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
+The chart can be used to install [OpenTelemetry Collector](https://github.com/cftechwiz/opentelemetry-collector)
 in a Kubernetes cluster. More detailed documentation can be found in
 [OpenTelemetry Collector chart directory](./charts/opentelemetry-collector).
 
 ### OpenTelemetry Demo
 
-The chart can be used to install [OpenTelemetry Demo](https://github.com/open-telemetry/opentelemetry-demo)
+The chart can be used to install [OpenTelemetry Demo](https://github.com/cftechwiz/opentelemetry-demo)
 in a Kubernetes cluster. More detailed documentation can be found in
 [OpenTelemetry Demo chart directory](./charts/opentelemetry-demo).
 
 ### OpenTelemetry Operator
 
-The chart can be used to install [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator)
+The chart can be used to install [OpenTelemetry Operator](https://github.com/cftechwiz/opentelemetry-operator)
 in a Kubernetes cluster. More detailed documentation can be found in
 [OpenTelemetry Operator chart directory](./charts/opentelemetry-operator).
 
